@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #666;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 40px auto 30px;
+  text-align: center;
+}
+
+.h-top-img {
+  width: 400px;
+}
+
+.h-bottom-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.h-nav {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h-menu {
+  list-style-type: none;
+  margin: 40px auto 50px;
+}
+
+.h-list {
+  display: inline;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.h-list a {
+  text-align: center;
+  text-decoration: none;
+  color: #666;
+  padding: 15px 30px;
+}
+
+.h-list a:hover {
+  color: #d08047;
+  border-bottom: 4px solid #d08047;
+  transition: 0.5s;
+}
+
+.m-h2 {
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #d08047;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+  color: white;
+}
+
+main dl {
+  clear: both;
+  margin: 20px;
+  line-height: 2;
+}
+
+main dt {
+  font-weight: bold;
+  float: left;
+  margin-right: 20px;
+}
+
+.m-h3 {
+  font-weight: normal;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+main p {
+  line-height: 2;
+  margin: 10px 20px;
+}
+
+main p a {
+  color: #666;
+}
+
+main p a:hover {
+  color: #d08047;
+  transition: 0.5s;
+}
+
+.m-point {
+  color: #d08047;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #666;
+}
+
+footer a:hover {
+  color: #d08047;
+}
+
+@media screen and (max-width: 600px) {
+
+  body {
+    font-size: 11px;
+  }
+
+  .h-nav {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .h-menu {
+    list-style-type: none;
+    margin: 30px auto;
+  }
+  
+  .h-list {
+    display: block;
+    padding: 6px;
+    font-size: 18px;
+  }
+  
+  .h-list a {
+    text-align: center;
+    text-decoration: none;
+    color: #666;
+    padding: 9px 30px;
+  }
+
+  .m-h2 {
+    font-weight: normal;
+    font-size: 13px;
+    background-color: #d08047;
+    padding: 10px  20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+  }
+
+  .m-h3 {
+    font-weight: normal;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+}

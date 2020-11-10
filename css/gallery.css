@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #666;
+  font-weight: normal;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 40px auto 30px;
+  text-align: center;
+}
+
+.h-top-img {
+  width: 400px;
+}
+
+.h-bottom-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.h-nav {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h-menu {
+  list-style-type: none;
+  margin: 40px auto 50px;
+}
+
+.h-list {
+  display: inline;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.h-list a {
+  text-align: center;
+  text-decoration: none;
+  color: #666;
+  padding: 15px 30px;
+}
+
+.h-list a:hover {
+  color: #d08047;
+  border-bottom: 4px solid #d08047;
+  transition: 0.5s;
+}
+
+.m-h2 {
+  background-color: #d08047;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.photo-box {
+ border-bottom: 1px solid #ccc;
+ clear: both;
+ overflow: hidden;
+}
+
+.photo-box img {
+  float: left;
+  width: 20%;
+  margin: 35px 30px 25px;
+}
+
+.m-h3 {
+  margin: 40px 0 10px;
+  font-weight: normal;
+  color: #d08047;
+  font-size: 16px;
+}
+
+footer {
+  margin: 20px 0 10px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #666;
+}
+
+footer a:hover {
+  color: #d08047;
+}
+
+@media screen and (max-width: 600px) {
+
+  .h-menu {
+    list-style-type: none;
+    margin: 30px auto;
+  }
+
+.h-list {
+  display: block;
+  font-size: 18px;
+  padding: 6px 0;
+  box-sizing: border-box;
+}
+
+.h-list a {
+  text-align: center;
+  text-decoration: none;
+  color: #666;
+  padding: 9px 30px;
+}
+
+.m-h2 {
+  background-color: #d08047;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 0 0 20px;
+  color: white;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.photo-box img {
+  float: left;
+  width: 20%;
+  margin: 15px;
+}
+
+.m-h3 {
+  margin: 15px 0 0;
+  font-weight: normal;
+  color: #d08047;
+  font-size: 13px;
+}
+
+p {
+  font-size: 13px;
+}
+
+footer {
+  margin: 30px 0 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.footer-under {
+  margin: 0;
+  font-size: 15px;
+}
+
+}
