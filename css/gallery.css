@@ -159,4 +159,9 @@ footer {
   font-size: 15px;
 }
 
+@media screen and (max-width: 599px) {
+  .h-top-img {
+    width: 300px;
+    text-align: center;
+  }
 }
