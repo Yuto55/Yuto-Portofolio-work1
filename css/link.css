@@ -116,7 +116,12 @@ footer a:hover {
   color: #d08047;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
+  
+ .h-top-img {
+    width: 300px;
+    text-align: center;
+  }
   
 .h-list {
   display: block;
@@ -156,9 +161,4 @@ footer {
   font-size: 15px;
 }
 
-@media screen and (max-width: 599px) {
-  .h-top-img {
-    width: 300px;
-    text-align: center;
-  }
 }
