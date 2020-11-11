@@ -169,4 +169,10 @@ footer a:hover {
     border-radius: 10px;
     margin-top: 20px;
   }
+
+  @media screen and (max-width: 599px) {
+  .h-top-img {
+    width: 300px;
+    text-align: center;
+  }
 }
