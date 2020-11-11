@@ -146,10 +146,15 @@ footer a:hover {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
 
   body {
     font-size: 11px;
+  }
+  
+  .h-top-img {
+    width: 300px;
+    text-align: center;
   }
 
   .h-nav {
@@ -204,9 +209,4 @@ footer a:hover {
     font-size: 15px;
   }
   
-@media screen and (max-width: 599px) {
-  .h-top-img {
-    width: 300px;
-    text-align: center;
-  }
 }
