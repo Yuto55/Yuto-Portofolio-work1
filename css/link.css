@@ -118,7 +118,7 @@ footer a:hover {
 
 @media screen and (max-width: 599px) {
   
- .h-top-img {
+ header img {
     width: 300px;
     text-align: center;
   }
