@@ -19,7 +19,7 @@ header h1 {
   margin: 40px auto;
 }
 
-header img {
+.h-top-img {
   width: 400px;
 }
 
@@ -118,7 +118,7 @@ footer a:hover {
 
 @media screen and (max-width: 599px) {
   
- header img {
+ .h-top-img {
     width: 300px;
     text-align: center;
   }
